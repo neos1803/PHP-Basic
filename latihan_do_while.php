@@ -11,6 +11,9 @@
 		<button type="submit">Cek apakah bilangan prima?</button>
 	</form>
 	<?php
+	/**
+	 * 
+	 */
 		if (isset($_POST['bilangan_pertama'])) {
 			$angka = (int)$_POST['bilangan_pertama'];
 			echo "Angka yang dimasukkan ialah : $angka <br>";

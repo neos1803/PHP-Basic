@@ -21,6 +21,12 @@
 	</form>
 
 	<?php
+		/*
+			* @param int $ujian_praktik Parsing result of post 'ujian_praktik'
+			* @param int $ujian_pilihan_ganda Parsing result of post 'ujian_pilihan_ganda'.
+			* @param int $kehadiran Parsing result of post 'kehadiran'.
+			* @param int $sikap Parsing result of post 'sikap'.
+		*/
 		$ujian_praktik=(int)$_POST['ujian_praktik'];
 		$ujian_pilihan_ganda=(int)$_POST['ujian_pilihan_ganda'];
 		$kehadiran=(int)$_POST['kehadiran'];

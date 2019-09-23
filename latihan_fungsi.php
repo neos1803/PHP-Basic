@@ -14,6 +14,15 @@
 		<button type="submit">Cek bilangan prima</button>
 	</form>
 	<?php
+		/**
+		 * Checking if $x a prime number or not by the number of $akar
+		 * if $akar is equal with 0, increment $akar
+		 * 
+		 * @parram int $x Mod $x with increment of $i.
+		 *
+		 * 
+		 * @return true|false
+		 */
 		function prima($x) {
 			$i=2;
 			$akar=1;
@@ -36,6 +45,9 @@
 			$angka2 = (int)$_POST['bilangan_kedua'];
 			echo "Bilangan $angka1 dan $angka2";
 			echo "<br>";
+			/**
+			 * Incrementing $i while $i less and equal to $angka2.
+			 */
 			for ($i=$angka1; $i<=$angka2; $i++)
 			{
 				if (prima($i) == true){
